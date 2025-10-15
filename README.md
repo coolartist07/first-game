@@ -1,2 +1,2 @@
 # first-game
-first visual novel game using RenPy :D
+my first visual novel game using RenPy :D
