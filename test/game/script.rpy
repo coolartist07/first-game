@@ -28,6 +28,8 @@ label start:
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
+    e "The current version of the game is 1.0, last updated: 10/20/2025"
+
     # This ends the game.
 
     return
