@@ -3,7 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+# define e = Character("Eileen")
+define d = Character("Doodlebob")
 
 
 # The game starts here.
@@ -14,21 +15,21 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene bg washington
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show doodlebob base
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    d "You've created a new Ren'Py game."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    d "Once you add a story, pictures, and music, you can release it to the world!"
 
-    e "The current version of the game is 1.0, last updated: 10/20/2025"
+    d "The current version of the game is 1.0, last updated: 10/20/2025"
 
     # This ends the game.
 
