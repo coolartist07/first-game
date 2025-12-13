@@ -36,12 +36,25 @@ label start:
     until I refilled your glass with more orange juice! I was new to the job too, 
     so you really had me worried I'd lose it as soon as I got it!"
 
+
+    hide doodlebob base
+    show julius base
+
     j "I-I'm sorry about that, Doodlebob."
+
+    hide julius base
+    show doodlebob base
 
     d "It was the only way you knew how to get what you wanted, so I understood."
 
+    hide doodlebob base
+    show julius base
+
     j "There's so many people yelling, though. And they sound mad at us. 
     Why would they be mad at us, Doodlebob? Have we done something to make them angry?"
+
+    hide julius base
+    show doodlebob base
 
     d "Now, dearest, this is not your fault. Your mother and father will take care of the commotion 
     so you can have a good night's rest. I'll be waiting for you in the morning with your favorite breakfast. 
