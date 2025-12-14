@@ -60,6 +60,33 @@ label start:
     so you can have a good night's rest. I'll be waiting for you in the morning with your favorite breakfast. 
     So, quickly! The sooner you sleep, the sooner you can eat it!"
 
+    hide doodlebob base
+
+    "His fingers touched the cold glass, but something within him decided to linger before closing it." 
+   
+    "The night air nipped at his nose. Though cold, it was refreshing compared to the stuffy palace air he's been 
+    inhaling most of his life. The stars twinkled above him, beckoning him to come outside and search them more. 
+    He needed to leave, but he hesitated."
+
+    label choices:
+        j "(Father and Mother would send out the entire cavalry if they noticed I was missing. I'd never be allowed to leave again. 
+        And yet…)"
+    menu:
+        "Sneak out":
+            jump choices1_a
+
+        "Close the window":
+            jump choices1_b
+
+    label choices1_a:
+        j "It'll only be for an hour or two. I'm usually a good kid, so this should be fine!"
+        jump choices1_done
+
+    label choices1_b:
+        "Julius closes the window, heading back to bed."
+
+    label choices1_done:
+
     # This ends the game.
 
     return
