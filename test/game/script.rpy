@@ -32,6 +32,14 @@ label start:
 
     d "The current version of the game is 1.0, last updated: 10/20/2025"
 
+    j "Why is there always a commotion every night at our door, Doodlebob?"
+
+    "Doodlebob's been their housemaid for ages, so he knows how to quell the young master's curiosity."
+
+    d "There are some who can only have their voices heard if they make a ruckus."
+
+    j "But why? Couldn’t they just wait ‘til morning to talk with Father?"
+
     d "I recall a time when you were younger, you wouldn't stop throwing a tantrum 
     until I refilled your glass with more orange juice! I was new to the job too, 
     so you really had me worried I'd lose it as soon as I got it!"
@@ -39,6 +47,8 @@ label start:
 
     hide doodlebob base
     show julius base
+
+    "Julius looked away, embarrassment coloring his cheeks."
 
     j "I-I'm sorry about that, Doodlebob."
 
@@ -50,11 +60,16 @@ label start:
     hide doodlebob base
     show julius base
 
+    "Julius looks up again, brows knitted together out of confusion."
+
     j "There's so many people yelling, though. And they sound mad at us. 
     Why would they be mad at us, Doodlebob? Have we done something to make them angry?"
 
     hide julius base
     show doodlebob base
+
+    "Doodlebob’s expression dawns a sad smile now, eyes hiding a deep pain he couldn't pick out easily. 
+    After a brief moment, he takes his hand and gives it a squeeze."
 
     d "Now, dearest, this is not your fault. Your mother and father will take care of the commotion 
     so you can have a good night's rest. I'll be waiting for you in the morning with your favorite breakfast. 
@@ -67,6 +82,8 @@ label start:
     "The night air nipped at his nose. Though cold, it was refreshing compared to the stuffy palace air he's been 
     inhaling most of his life. The stars twinkled above him, beckoning him to come outside and search them more. 
     He needed to leave, but he hesitated."
+
+    # Learning the choice mechanic
 
     label choices:
         j "(Father and Mother would send out the entire cavalry if they noticed I was missing. I'd never be allowed to leave again. 
