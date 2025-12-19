@@ -4,8 +4,8 @@
 # name of the character.
 
 # define e = Character("Eileen")
-define d = Character("Doodlebob")
-define j = Character("Julius")
+define d = Character(_("Doodlebob"), color = "414288")
+define j = Character(_("Julius"), color = "FF8D21")
 
 
 # The game starts here.
@@ -38,7 +38,7 @@ label start:
 
     d "There are some who can only have their voices heard if they make a ruckus."
 
-    j "But why? Couldn’t they just wait ‘til morning to talk with Father?"
+    j "But why? Couldn't they just wait 'til morning to talk with Father?"
 
     d "I recall a time when you were younger, you wouldn't stop throwing a tantrum 
     until I refilled your glass with more orange juice! I was new to the job too, 
@@ -68,7 +68,7 @@ label start:
     hide julius base
     show doodlebob base
 
-    "Doodlebob’s expression dawns a sad smile now, eyes hiding a deep pain he couldn't pick out easily. 
+    "Doodlebob's expression dawns a sad smile now, eyes hiding a deep pain he couldn't pick out easily. 
     After a brief moment, he takes his hand and gives it a squeeze."
 
     d "Now, dearest, this is not your fault. Your mother and father will take care of the commotion 
