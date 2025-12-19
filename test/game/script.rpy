@@ -86,24 +86,24 @@ label start:
 
     # Learning the choice mechanic
 
-    label choices:
+    label choice1:
         j "(Father and Mother would send out the entire cavalry if they noticed I was missing. I'd never be allowed to leave again. 
         And yet…)"
     menu:
         "Sneak out":
-            jump choices1_a
+            jump sneakout
 
         "Close the window":
-            jump choices1_b
+            jump close_window
 
-    label choices1_a:
+    label sneakout:
         j "It'll only be for an hour or two. I'm usually a good kid, so this should be fine!"
-        jump choices1_done
+        jump end_story
 
-    label choices1_b:
+    label close_window:
         "Julius closes the window, heading back to bed."
 
-    label choices1_done:
+    label end_story:
 
     # This ends the game.
 
