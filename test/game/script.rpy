@@ -88,7 +88,7 @@ label start:
 
     label choice1:
         j "(Father and Mother would send out the entire cavalry if they noticed I was missing. I'd never be allowed to leave again. 
-        And yet…)"
+        And yet...)"
     menu:
         "Sneak out":
             jump sneakout
@@ -101,6 +101,7 @@ label start:
         jump end_story
 
     label close_window:
+        j "(It's probably for the best I stay in. Everything will be okay by tomorrow.)"
         "Julius closes the window, heading back to bed."
 
     label end_story:
